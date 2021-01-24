@@ -7,7 +7,7 @@ This application utilizes _______.
 ## 📓Table of Contents
 * [Purpose](#purpose)
 * [Mock Up](#mock-up)
-* [:pencil2:Built With](#Built-With)
+* [Built With](#built-with)
 * [Installation](#installation)
 * [Website](#website)
 * [Contributing](#contributing)
