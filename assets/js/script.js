@@ -3,7 +3,7 @@ var todayDate = moment().format("dddd, MMM Do YYYY");
 $("#currentDay").html(todayDate);
 
 
-// Function for 
+// Function for DOM
 $(document).ready(function(){
 
     // Function to save user input
