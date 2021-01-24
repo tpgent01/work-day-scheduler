@@ -52,7 +52,7 @@ The user should clone the repository from GitHub and open up the project in the 
 ## 💻Website
 Please view deployed application at [Work Day Scheduler](https://tpgent01.github.io/work-day-scheduler/)
 
-![](website-1.gif =250x250)
+![](website-1.gif=250x250)
 ![](website-2.gif)
 
 
