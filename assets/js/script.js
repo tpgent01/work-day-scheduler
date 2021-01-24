@@ -15,13 +15,39 @@ $(document).ready(function(){
 
         // Save text to local storage
         localStorage.setItem(time, text);
-        console.log(localStorage)
     })
 
     // Function for tracking time
+    function timeTracker() {
+        // Get current time in hours
+        var timeNow = moment().hour();
 
+        // Loop over time blocks
+        $(".time-block").each(function() {
+            var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+
+            // Add classes based on time
+            if (blockTime < timeNow) {
+                $(this).removeClass("future");
+                $(this).removeClass("present");
+                $(this).addClass("past");
+
+            } else if (blockTime === timeNow) {
+                $(this).removeClass("past");
+                $(this).removeClass("future");
+                $(this).addClass("present");
+
+            } else {
+                $(this).removeClass("present");
+                $(this).removeClass("past");
+                $(this).addClass("future");
+            }
+        })
+    }
+
+    // Get items from local storage
+
+
+
+    timeTracker();
 })
-
-
-
-// Get items from local storage
