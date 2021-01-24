@@ -2,6 +2,7 @@
 var todayDate = moment().format("dddd, MMM Do YYYY");
 $("#currentDay").html(todayDate);
 
+
 // Function to track time
     // loop over time blocks
         // check time for classes
