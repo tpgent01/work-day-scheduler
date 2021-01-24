@@ -3,14 +3,24 @@ var todayDate = moment().format("dddd, MMM Do YYYY");
 $("#currentDay").html(todayDate);
 
 
-// Function to track time
-    // loop over time blocks
-        // check time for classes
+// Function for 
+$(document).ready(function(){
 
+    // Function to save user input
+    $(".saveBtn").on("click", function() {
 
+        // Get values of description in JQuery
+        var text = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
 
-// Function to save user input
-    // save to local storage
+        // Save text to local storage
+        localStorage.setItem(time, text);
+        console.log(localStorage)
+    })
+
+    // Function for tracking time
+
+})
 
 
 
