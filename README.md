@@ -7,7 +7,7 @@ This application utilizes _______.
 ## 📓Table of Contents
 * [Purpose](#purpose)
 * [Mock Up](#mock-up)
-* [Built With](#Built-With)
+* [:pencil2:Built With](#Built-With)
 * [Installation](#installation)
 * [Website](#website)
 * [Contributing](#contributing)
@@ -35,7 +35,7 @@ This application utilizes _______.
 ![](mockup.gif)
 
 
-## ✏️Built With
+## :pencil2:Built With
 * HTML
 * CSS
 * Javascript
