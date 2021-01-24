@@ -39,7 +39,10 @@ This project is a time management website that provides the user with the abilit
 * CSS
 * Javascript
 * Bootstrap
+* JQuery
+* Moment.js
 * Google Fonts
+* Font Awesome
 
 
 ## 🔌Installation
